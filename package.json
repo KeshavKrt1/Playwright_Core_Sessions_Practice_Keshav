@@ -1,0 +1,17 @@
+{
+  "name": "naveenautomationlabsplaywright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "codegen": "npx playwright codegen https://naveenautomationlabs.com/opencart/index.php?route=account/login"
+  },
+  "keywords": [],
+  "author": "Keshav Kulkarni",
+  "license": "ISC",
+  "description": "This is my PW practice project",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.4.1"
+  }
+}
